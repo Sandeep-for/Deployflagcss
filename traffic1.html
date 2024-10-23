@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #outer{
+        height:200px;
+        width:70px;
+        border:2px solid red;
+        background-color: black;
+    }
+    .inner{
+        height:50px;
+        width:50px;
+        border:2px solid black;
+        margin:10px;
+        border-radius:50%
+    }
+    #red{
+        background-color:red;
+    }
+    #yellow{
+        background-color: yellow;
+    }
+    #green{
+        background-color: green;
+    }
+    #outer1{
+        width:0vw;
+        height:0vh;
+        border:2px solid;
+    }
+    .snner{
+        height:10vh;
+        width:50vw;
+        border:2px solid black;
+    }
+    #orange{
+        background-color: orange;
+    }
+    .md{
+            margin-top:35vh;
+            position:relative;
+            width:300px;
+            height:300px;
+        }
+        .circle{
+            position: absolute;
+            border-radius:50%;
+            border:5px solid #000
+        }
+        .cd{
+            width:300px;
+            height:300px;
+            background-color: red;
+            left:0;
+            top:0;
+        }
+        .cd2{
+            width:240px;
+            height:240px;
+            background-color: blue;
+            left:30px;
+            top:30px
+        }
+        .cd3{
+            width:180px;
+            height:180px;
+            background-color: black;
+            left:60px;
+            top:60px;
+        }
+        .cd4{
+            width:120px;
+            height:120px;
+            background-color:white;
+            left:90px;
+            top:90px;
+        }
+        .cd5{
+            width:60px;
+            height:60px;
+            background-color:yellow;
+            left:120px;
+            top:120px;
+        }
+        .chakra{
+            height:10vh;
+            width:10vw;
+            margin-left: 600px;
+            margin-top: 0px;
+        }
+</style>
+</head>
+<body>
+    <div id="outer">
+        <div class="inner" id="red"></div>
+        <div class="inner" id="yellow"></div>
+        <div class="inner" id="green"></div>
+    </div>
+    <hr>
+    <div id="outer1">
+        <div class="snner" id="orange"></div>
+        <div class="snner" id="white"><img class="chakra" src="../assets/images/chakra.jpg"></div>
+        <div class="snner" id="green"></div>
+    </div>
+    <div class="md">
+        <div class="circle cd"></div>
+        <div class="circle cd2"></div>
+        <div class="circle cd3"></div>
+        <div class="circle cd4"></div>
+        <div class="circle cd5"></div>
+    </div>
+</body>
+</html>
